@@ -1,0 +1,2 @@
+{writeShellScriptBin, ...}:
+writeShellScriptBin "%" "exec $@"
