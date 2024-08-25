@@ -17,4 +17,6 @@
   longgopher = callPackage ./pkgs/extra/longgopher {};
 
   ugm = callPackage ./pkgs/extra/ugm {};
+
+  chkbit = callPackage ./pkgs/extra/chkbit {};
 }
