@@ -19,4 +19,6 @@
   ugm = callPackage ./pkgs/extra/ugm {};
 
   chkbit = callPackage ./pkgs/extra/chkbit {};
+
+  choose-something = callPackage ./pkgs/extra/choose {};
 }
