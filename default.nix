@@ -1,7 +1,6 @@
 {
   pkgs ? import <nixpkgs> {},
-  callPackage ? pkgs.callPackage,
-}: {
+}: with pkgs; {
   ### my stuff ###
   fig = callPackage ./pkgs/mine/fig {};
 
