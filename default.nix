@@ -1,5 +1,6 @@
 {
   pkgs ? import <nixpkgs> {},
+  ...
 }: with pkgs; {
   ### my stuff ###
   fig = callPackage ./pkgs/mine/fig {};
@@ -20,4 +21,6 @@
   chkbit = callPackage ./pkgs/extra/chkbit {};
 
   choose-something = callPackage ./pkgs/extra/choose {};
+
+  html2markdown = callPackage ./pkgs/extra/html2markdown {};
 }
