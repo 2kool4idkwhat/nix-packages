@@ -18,7 +18,6 @@ buildGoModule rec {
   vendorHash = "sha256-34D9fQnmKnOyUqshduLmFiVgcVKi7mDKBs3X5ZQxsuw=";
 
   ldflags = ["-s" "-w"];
-  CGO_ENABLED = 0;
 
   meta = with lib; {
     description = "A terminal based UNIX user and group browser";

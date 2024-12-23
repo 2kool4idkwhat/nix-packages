@@ -18,5 +18,4 @@ buildGoModule {
 
   ldflags = ["-s" "-w"];
 
-  CGO_ENABLED = 0;
 }
