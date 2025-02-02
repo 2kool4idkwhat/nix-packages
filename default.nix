@@ -25,4 +25,6 @@
   gnome-frog = callPackage ./pkgs/extra/gnome-frog {};
 
   html2markdown = callPackage ./pkgs/extra/html2markdown {};
+
+  adwaita-fonts = callPackage ./pkgs/extra/adwaita-fonts {};
 }
