@@ -15,9 +15,7 @@ stdenvNoCC.mkDerivation {
     runHook preInstall
 
     mkdir -p $out/share/fonts/
-
     cp -r variable/ $out/share/fonts/
-    cp -r truetype/ $out/share/fonts/
 
     runHook postInstall
   '';
