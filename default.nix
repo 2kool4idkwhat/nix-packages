@@ -32,4 +32,6 @@
   comic-sans = callPackage ./pkgs/extra/comic-sans {};
 
   lexend-regular = callPackage ./pkgs/fonts/lexend-regular {};
+
+  inter-variable = callPackage ./pkgs/fonts/inter-variable {};
 }
