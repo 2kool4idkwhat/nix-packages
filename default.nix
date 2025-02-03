@@ -27,4 +27,6 @@
   html2markdown = callPackage ./pkgs/extra/html2markdown {};
 
   adwaita-fonts = callPackage ./pkgs/extra/adwaita-fonts {};
+
+  comic-sans = callPackage ./pkgs/extra/comic-sans {};
 }
