@@ -20,8 +20,6 @@
 
   chkbit = callPackage ./pkgs/extra/chkbit {};
 
-  choose-something = callPackage ./pkgs/extra/choose {};
-
   gnome-frog = callPackage ./pkgs/extra/gnome-frog {};
 
   html2markdown = callPackage ./pkgs/extra/html2markdown {};
@@ -34,4 +32,6 @@
   lexend-regular = callPackage ./pkgs/fonts/lexend-regular {};
 
   inter-variable = callPackage ./pkgs/fonts/inter-variable {};
+
+  neko-sans = callPackage ./pkgs/fonts/neko-sans {};
 }
