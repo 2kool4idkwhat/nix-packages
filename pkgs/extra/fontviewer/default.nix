@@ -2,6 +2,7 @@
   stdenv,
   fetchFromGitHub,
   pkgs,
+  lib,
 }:
 stdenv.mkDerivation {
   pname = "fontviewer";
@@ -17,11 +18,16 @@ stdenv.mkDerivation {
 
   mesonBuildType = "release";
 
-  # TODO: install the .desktop file
   installPhase = ''
     mkdir -p $out/bin
+    mkdir -p $out/share/applications
     cp fontviewer $out/bin
+    cp ../data/fontviewer.desktop $out/share/applications
   '';
+
+  patches = [
+    ./desktop-file.patch
+  ];
 
   buildInputs = with pkgs; [
     fontconfig
@@ -35,7 +41,9 @@ stdenv.mkDerivation {
     pkg-config
   ];
 
-  meta = {
+  meta = with lib; {
     homepage = "https://github.com/chocolateimage/fontviewer";
+    description = "View and install fonts on a Linux system";
+    platforms = platforms.linux;
   };
 }

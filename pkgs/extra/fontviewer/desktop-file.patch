@@ -1,0 +1,18 @@
+diff --git a/data/fontviewer.desktop b/data/fontviewer.desktop
+index 8bc63a6..42a3d6a 100644
+--- a/data/fontviewer.desktop
++++ b/data/fontviewer.desktop
+@@ -1,9 +1,9 @@
+ [Desktop Entry]
+-Name=Fonts
++Name=Font Viewer
+ Icon=preferences-desktop-font
+-Exec=/usr/bin/fontviewer %u
++Exec=fontviewer %u
+ Type=Application
+ Categories=Utility
+ MimeType=application/x-font-ttf;application/x-font-pcf;application/x-font-type1;application/x-font-otf;font/ttf;font/otf;
+ Comment=View and install fonts
+-Terminal=false
+\ No newline at end of file
++Terminal=false
