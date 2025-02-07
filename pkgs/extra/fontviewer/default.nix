@@ -37,7 +37,6 @@ stdenv.mkDerivation {
   nativeBuildInputs = with pkgs; [
     meson
     ninja
-    cmake
     pkg-config
   ];
 
