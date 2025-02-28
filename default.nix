@@ -16,8 +16,6 @@
   longcpp = callPackage ./pkgs/extra/longcpp {};
   longgopher = callPackage ./pkgs/extra/longgopher {};
 
-  ugm = callPackage ./pkgs/extra/ugm {};
-
   chkbit = callPackage ./pkgs/extra/chkbit {};
 
   gnome-frog = callPackage ./pkgs/extra/gnome-frog {};
