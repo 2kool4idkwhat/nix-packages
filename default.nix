@@ -11,6 +11,7 @@
   unpercent = callPackage ./pkgs/mine/unpercent {};
 
   open-gtk4-docs = callPackage ./pkgs/mine/open-gtk4-docs {};
+  open-adw-docs = callPackage ./pkgs/mine/open-adw-docs {};
 
   ### other people's stuff ###
   fontviewer = callPackage ./pkgs/extra/fontviewer {};
