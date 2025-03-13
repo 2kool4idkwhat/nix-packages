@@ -10,6 +10,8 @@
   undollar = callPackage ./pkgs/mine/undollar {};
   unpercent = callPackage ./pkgs/mine/unpercent {};
 
+  open-gtk4-docs = callPackage ./pkgs/mine/open-gtk4-docs {};
+
   ### other people's stuff ###
   fontviewer = callPackage ./pkgs/extra/fontviewer {};
 
