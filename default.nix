@@ -28,8 +28,6 @@
   landrun = callPackage ./pkgs/extra/landrun {};
 
   ### fonts ###
-  adwaita-fonts = callPackage ./pkgs/extra/adwaita-fonts {};
-
   comic-sans = callPackage ./pkgs/extra/comic-sans {};
 
   lexend-regular = callPackage ./pkgs/fonts/lexend-regular {};
