@@ -27,6 +27,8 @@
 
   landrun = callPackage ./pkgs/extra/landrun {};
 
+  bibata = callPackage ./pkgs/extra/bibata {};
+
   ### fonts ###
   comic-sans = callPackage ./pkgs/extra/comic-sans {};
 
