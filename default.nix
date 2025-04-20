@@ -12,6 +12,7 @@
 
   open-gtk4-docs = callPackage ./pkgs/mine/open-gtk4-docs {};
   open-adw-docs = callPackage ./pkgs/mine/open-adw-docs {};
+  open-nixpkgs-manual = callPackage ./pkgs/mine/open-nixpkgs-manual {};
 
   ### other people's stuff ###
   fontviewer = callPackage ./pkgs/extra/fontviewer {};
