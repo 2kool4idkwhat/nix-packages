@@ -22,8 +22,6 @@
 
   chkbit = callPackage ./pkgs/extra/chkbit {};
 
-  gnome-frog = callPackage ./pkgs/extra/gnome-frog {};
-
   html2markdown = callPackage ./pkgs/extra/html2markdown {};
 
   landrun = callPackage ./pkgs/extra/landrun {};
