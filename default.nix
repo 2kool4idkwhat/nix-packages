@@ -24,8 +24,6 @@
 
   html2markdown = callPackage ./pkgs/extra/html2markdown {};
 
-  landrun = callPackage ./pkgs/extra/landrun {};
-
   bibata = callPackage ./pkgs/extra/bibata {};
 
   ### fonts ###
