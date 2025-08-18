@@ -26,6 +26,8 @@
 
   bibata = callPackage ./pkgs/extra/bibata {};
 
+  aa-log = callPackage ./pkgs/extra/aa-log {};
+
   ### fonts ###
   comic-sans = callPackage ./pkgs/extra/comic-sans {};
 
