@@ -28,6 +28,8 @@
 
   aa-log = callPackage ./pkgs/extra/aa-log {};
 
+  fedinspect = callPackage ./pkgs/extra/fedinspect {};
+
   ### fonts ###
   comic-sans = callPackage ./pkgs/extra/comic-sans {};
 
