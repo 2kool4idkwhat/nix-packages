@@ -30,6 +30,8 @@
 
   fedinspect = callPackage ./pkgs/extra/fedinspect {};
 
+  kasasa = callPackage ./pkgs/extra/kasasa {};
+
   ### fonts ###
   comic-sans = callPackage ./pkgs/extra/comic-sans {};
 
