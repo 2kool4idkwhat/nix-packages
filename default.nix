@@ -29,7 +29,7 @@
   kasasa = callPackage ./pkgs/extra/kasasa {};
 
   ### fonts ###
-  comic-sans = callPackage ./pkgs/extra/comic-sans {};
+  comic-sans = callPackage ./pkgs/fonts/comic-sans {};
 
   lexend-regular = callPackage ./pkgs/fonts/lexend-regular {};
 
