@@ -28,6 +28,8 @@
 
   kasasa = callPackage ./pkgs/extra/kasasa {};
 
+  hakoniwa = callPackage ./pkgs/extra/hakoniwa {};
+
   ### fonts ###
   comic-sans = callPackage ./pkgs/fonts/comic-sans {};
 
