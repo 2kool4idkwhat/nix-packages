@@ -30,6 +30,8 @@
 
   hakoniwa = callPackage ./pkgs/extra/hakoniwa {};
 
+  landlock-auditer = callPackage ./pkgs/extra/landlock-auditer {};
+
   ### fonts ###
   comic-sans = callPackage ./pkgs/fonts/comic-sans {};
 
