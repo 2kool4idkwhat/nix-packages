@@ -32,6 +32,8 @@
 
   landlock-auditer = callPackage ./pkgs/extra/landlock-auditer {};
 
+  unf = callPackage ./pkgs/extra/unf {};
+
   ### fonts ###
   comic-sans = callPackage ./pkgs/fonts/comic-sans {};
 
