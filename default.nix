@@ -3,8 +3,6 @@
   ...
 }: with pkgs; {
   ### my stuff ###
-  fig = callPackage ./pkgs/mine/fig {};
-
   zig-cc = callPackage ./pkgs/mine/zig-cc {};
 
   undollar = callPackage ./pkgs/mine/undollar {};
@@ -12,11 +10,6 @@
 
   ### other people's stuff ###
   fontviewer = callPackage ./pkgs/extra/fontviewer {};
-
-  longcpp = callPackage ./pkgs/extra/longcpp {};
-  longgopher = callPackage ./pkgs/extra/longgopher {};
-
-  chkbit = callPackage ./pkgs/extra/chkbit {};
 
   html2markdown = callPackage ./pkgs/extra/html2markdown {};
 
@@ -26,17 +19,11 @@
 
   fedinspect = callPackage ./pkgs/extra/fedinspect {};
 
-  kasasa = callPackage ./pkgs/extra/kasasa {};
-
   hakoniwa = callPackage ./pkgs/extra/hakoniwa {};
-
-  landlock-auditer = callPackage ./pkgs/extra/landlock-auditer {};
 
   unf = callPackage ./pkgs/extra/unf {};
 
   ### fonts ###
-  comic-sans = callPackage ./pkgs/fonts/comic-sans {};
-
   lexend-regular = callPackage ./pkgs/fonts/lexend-regular {};
 
   neko-sans = callPackage ./pkgs/fonts/neko-sans {};

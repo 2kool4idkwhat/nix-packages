@@ -11,11 +11,11 @@ buildGoModule {
     owner = "roddhjav";
     repo = "apparmor.d";
 
-    rev = "24f629d326692965d2a17fe948f9500c04e5122b";
-    hash = "sha256-CNobWPETWU7IffirsRyK+lJTj2ZNFB1nJLUAeG6v9oY=";
+    rev = "db155f021899aacee3b7c246bfa8a17f1f066d29";
+    hash = "sha256-ZDXiMyGXm82e4eleYxIGz1mN7Smx0O6Djl2QHfN3yy8=";
   };
 
-  vendorHash = null;
+  vendorHash = "sha256-aGqnmqCnp3uhbO93P2iFU5BEQMZAFnWfnwpGUM9pF/0=";
 
   subPackages = [ "cmd/aa-log" ];
 
